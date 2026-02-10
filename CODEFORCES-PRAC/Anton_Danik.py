@@ -12,3 +12,4 @@ elif A_sum == D_sum:
     print("Friendship")
 else:
     print("Danik")
+    
