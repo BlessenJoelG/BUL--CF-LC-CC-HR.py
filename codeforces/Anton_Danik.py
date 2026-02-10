@@ -11,4 +11,8 @@ if A_sum > D_sum:
 elif A_sum == D_sum:
     print("Friendship")
 else:
+<<<<<<< HEAD
     print("Danik")
+=======
+    print("Danik")
+>>>>>>> 781f09e5da9711298aa1fb35f8d4a8f516177b5c
