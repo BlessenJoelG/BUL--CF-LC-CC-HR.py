@@ -1,12 +1,15 @@
-r,z = 0,0
-x = int(input())
-pal = x
-while(x!=0):
-    y = x%10
-    r = z+y
-    z = r*10
-    x = int(x/10)
-if pal == r:
-    print("true")
-else:
-    print("false")
+class Solution:
+  def isPalindrome(self, x: int) -> bool:
+    z = 0
+    pal = x
+    while(x!=0):
+        y = x%10
+        z = z*10+y
+        x = int(x/10)
+    if pal == z:
+        return True
+    else:
+        return False
+Answer = Solution()
+chk = Answer.isPalindrome(x = int(input()))
+print("the number is Palindrome?",chk)
