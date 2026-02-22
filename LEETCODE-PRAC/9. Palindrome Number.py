@@ -10,6 +10,3 @@ class Solution:
         return True
     else:
         return False
-Answer = Solution()
-chk = Answer.isPalindrome(x = int(input()))
-print("the number is Palindrome?",chk)
