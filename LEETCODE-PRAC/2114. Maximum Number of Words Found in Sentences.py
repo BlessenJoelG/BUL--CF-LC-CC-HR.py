@@ -1,5 +1,5 @@
 class Solution:
-    def mostWordsFound(self, sentences: List[str]) -> int:
+    def mostWordsFound(self, sentences) -> int:
         sentence_len = []
         for i in sentences:
             x = i.split(" ")

@@ -1,5 +1,5 @@
 class Solution:
-    def findWordsContaining(self, words: List[str], x: str) -> List[int]:
+    def findWordsContaining(self, words, x):
         tokenizer,idx_op = [],[]
         for _ in range(len(words)):
             for y in words[_]:
