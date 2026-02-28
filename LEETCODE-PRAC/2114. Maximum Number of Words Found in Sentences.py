@@ -5,3 +5,5 @@ class Solution:
             x = i.split(" ")
             sentence_len.append(len(x))
         return(max(sentence_len))
+Answer = Solution()
+Answer.mostWordFound(["alice and bob love leetcode", "i think so too", "this is great thanks very much"])
